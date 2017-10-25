@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server/server.js",
-    "webpack": "cd client && webpack -w"
+    "build": "cd client && webpack -w"
   },
   "repository": {
     "type": "git",
